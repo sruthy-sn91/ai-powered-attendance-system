@@ -49,24 +49,42 @@ Centralized configurations via config.py to adjust detection tolerances, file pa
 ## Project Structure
 .
 ├── known_faces/                 # Directory containing subfolders for each known person
+
 │   ├── Student_1/
+
 │   ├── Student_2/
 │   ├── Student_3/
+
 │   ├── Student_4/
+
 │   └── Student_5/
+
 ├── yolov5/                      # YOLOv5 model files (if using local model files)
+
 ├── attendance_utils.py          # Utility functions for visualizing and processing attendance data
+
 ├── camera_module.py             # Handles real-time video capture and frame processing
+
 ├── config.py                    # Global configuration parameters (paths, thresholds, etc.)
+
 ├── database.py                  # Initializes and logs data to the SQLite attendance database
+
 ├── emotion_recognition.py       # Detects emotions from faces using the FER library
+
 ├── face_recognition_module.py   # Loads known face encodings and recognizes faces in frames
+
 ├── mobile_phone_detection_module.py   # Uses a YOLOv5 model to detect mobile phones in video frames
+
 ├── read_attendance.py           # Reads and processes attendance data from the database for reporting
+
 ├── report_generator.py          # Generates PDF reports combining attendance and academic data
+
 ├── main.py                      # Main entry point of the application, integrating all modules
+
 ├── requirements.txt             # List of all project dependencies
+
 └── yolov5s.pt                   # Pretrained YOLOv5 weights (if used)
+
 
 ## Installation
 
