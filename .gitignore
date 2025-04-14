@@ -1,0 +1,14 @@
+# Ignore known faces folder
+known_faces/
+
+# Ignore YOLOv5 folder
+yolov5/
+
+# Ignore academic data CSV file
+academic_data.csv
+
+# Ignore SQLite database file
+attendance.db
+
+# Ignore test alert script
+test_alert.py
