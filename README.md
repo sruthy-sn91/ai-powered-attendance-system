@@ -34,7 +34,7 @@ Uses the face_recognition library to detect and compare live faces with pre-stor
 **Detects Emotions:** 
 Uses an emotion detection module to analyze facial expressions.
 
-**Monitors Mobile Phone Usage: 
+**Monitors Mobile Phone Usage:** 
 Utilizes a YOLOv5 model to detect mobile phones in video frames.
 
 **Logs Attendance:**
